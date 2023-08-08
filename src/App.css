@@ -1,0 +1,21 @@
+.container {
+  margin: auto;
+  width: 90%;
+  border: 1px solid #73AD21;
+  background-color: #32746A;
+  padding: 20px;
+}
+
+.add-btn {
+  float: right;
+  width: 1px;
+  background-color: red;
+  color: #ffffff;
+  
+}
+
+.taskN {
+  margin: 20px;
+  border: 1px solid #ffffff;
+  background-color:  #CCF7E3;
+}
