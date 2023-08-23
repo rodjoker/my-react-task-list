@@ -1,14 +1,21 @@
 import React from 'react'
 
-export default function Task({taskName, onDeleteItem}){
+export default function Task({taskName}){
   
-
+ 
   return (
-    <div className='taskN'>
-      <input type='checkbox'/>
-      {taskName}
+    
 
+    <div className='taskN'>
+    
+    <input type='checkbox'/>
+
+      {taskName}
       <button className='add-btn'>x</button>
+      
+
+     
     </div>
+
   )
 }
